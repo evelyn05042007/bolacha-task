@@ -1,0 +1,140 @@
+body {
+    font-family:Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0e9e9;
+    background-image: url(https://loja.cestanobre.com.br/storage/bolacha-imagem-capa-do-artigo.webp);
+ }
+ 
+ 
+ .container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid #030000;
+    border-radius: 9px;
+    background-color: #c5c5c5;
+    box-shadow: 0 0 10px rgba(8, 8, 8, 0.1);
+ }
+ 
+ 
+ h1, h2 {
+    text-align: center;
+    color: #292d46;
+    border-style: groove
+ }
+ 
+ 
+ .input-section {
+    margin-bottom: 8%;
+    text-align: center;
+ }
+ 
+ 
+ .input-section input {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #130d0d;
+    border-radius: 9px;
+    margin-right: 10px;
+ }
+ 
+ 
+ .input-section button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+ }
+ 
+ 
+ .input-section button:hover {
+    background-color: #2980b9;
+ }
+ 
+ 
+ .menu-payment-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+ }
+ 
+ 
+ .menu-section, .payment-section, .accompaniment-section {
+    flex: 1;
+    margin: 0 10px;
+ }
+ 
+ 
+ .payment-section select, .accompaniment-section ul {
+    width: 100%;
+ }
+ 
+ 
+ .payment-section select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+ }
+ 
+ 
+ .accompaniment-section ul {
+    list-style: none;
+    padding: 0;
+ }
+ 
+ 
+ .accompaniment-section li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f9fbfc;
+ }
+ 
+ 
+ .special-menu-section {
+    margin-bottom: 20px;
+ }
+ 
+ 
+ .special-menu-section ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+ }
+ 
+ 
+ .special-menu-section li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #6bb1c7;
+ }
+ 
+ 
+ .orders-section {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+ }
+ 
+ 
+ #ordersList {
+    list-style: none;
+    padding: 0;
+ }
+ 
+ 
+ #ordersList li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #e7e5e5;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+ }
+ 
