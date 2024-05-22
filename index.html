@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Bolacha Task - Faça seu Pedido</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+       <h1>Bolacha Task - Faça seu Pedido</h1>
+      
+       <div class="input-section">
+           <input type="text" id="orderInput" placeholder="Digite o seu pedido de bolachas...">
+           <button id="addOrderButton">Adicionar Pedido</button>
+       </div>
+      
+       <div class="menu-payment-section">
+           <div class="menu-section">
+               <h2>Cardápio:</h2>
+               <ul id="menuList">
+                   <!-- Aqui será adicionado o cardápio via JavaScript -->
+               </ul>
+           </div>
+
+
+           <div class="payment-section">
+               <h2>Forma de Pagamento:</h2>
+               <select id="paymentMethod">
+                   <option value="credito">Cartão de Crédito</option>
+                   <option value="debito">Cartão de Débito</option>
+                   <option value="pix">PIX</option>
+                   <option value="dinheiro">Dinheiro</option>
+               </select>
+           </div>
+          
+           <div class="accompaniment-section">
+               <h2>Acompanhamentos:</h2>
+               <ul id="accompanimentList">
+                   <!-- Aqui será adicionado o acompanhamento via JavaScript -->
+               </ul>
+           </div>
+       </div>
+      
+       <div class="special-menu-section">
+           <h2>Cardápio Especial de Final de Semana:</h2>
+           <ul id="specialMenuList">
+               <!-- Aqui será adicionado o cardápio especial via JavaScript -->
+           </ul>
+       </div>
+
+
+       <div class="orders-section">
+           <h2>Pedidos:</h2>
+          <ul id="ordersList"></ul>
+       </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
+
+
